@@ -1,0 +1,14 @@
+package chap06;
+
+public class Code13 {
+
+	public static void main(String[] args) {
+		BankAccount ba1 = new BankAccount("Alice", 100000);
+		BankAccount ba2 = new BankAccount("Paul", 50000);
+		BankAccount ba3 = new BankAccount("Cindy", 40000);		
+		BankAccount ba4 = new BankAccount("David", 150000);
+		BankAccount ba5 = new BankAccount("Tom", 200000);
+		System.out.println("number of accounts" + BankAccount.count);
+	}
+
+}
